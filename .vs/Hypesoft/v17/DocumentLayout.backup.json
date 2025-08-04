@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hypesoft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\updatestockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\updatestockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\commands\\updatestockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\commands\\updatestockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\validators\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\validators\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\getlowstockproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\getlowstockproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\hypesoft.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\hypesoft.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\hypesoft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\hypesoft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:33:05.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateStockCommandHandler.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateStockCommandHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\UpdateStockCommandHandler.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateStockCommandHandler.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\UpdateStockCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:20:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\API\\ProductsController.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
+              "RelativeToolTip": "Hypesoft\\API\\ProductsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:07:41.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\CreateProductHandler.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\CreateProductHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:23:33.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:21:43.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateStockCommand.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\UpdateStockCommand.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Commands\\UpdateStockCommand.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\UpdateStockCommand.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Commands\\UpdateStockCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:20:36.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Program.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Program.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Program.cs",
+              "RelativeToolTip": "Hypesoft\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:07:43.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\API\\CategoriesController.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
+              "RelativeToolTip": "Hypesoft\\API\\CategoriesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:07:40.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Commands\\CreateCategoryCommand.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Commands\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:33:11.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductValidator.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:33:47.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetLowStockProductsQuery.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetLowStockProductsQuery.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetLowStockProductsQuery.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetLowStockProductsQuery.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetLowStockProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:22:15.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetLowStockProductsHandler.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetLowStockProductsHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\GetLowStockProductsHandler.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetLowStockProductsHandler.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\GetLowStockProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:22:30.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetProductByIdHandler.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:23:50.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetCategoryByIdQuery.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:25:08.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Hypesoft\\Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:21:36.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Dockerfile",
+              "RelativeDocumentMoniker": "Hypesoft\\Dockerfile",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Dockerfile",
+              "RelativeToolTip": "Hypesoft\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-04T23:14:55.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Hypesoft.http",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Hypesoft.http",
+              "RelativeDocumentMoniker": "Hypesoft\\Hypesoft.http",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Hypesoft.http",
+              "RelativeToolTip": "Hypesoft\\Hypesoft.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-04T23:12:53.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Hypesoft",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Hypesoft.csproj",
+              "RelativeDocumentMoniker": "Hypesoft\\Hypesoft.csproj",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Hypesoft.csproj",
+              "RelativeToolTip": "Hypesoft\\Hypesoft.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T23:09:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\WeatherForecast.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\WeatherForecast.cs",
+              "RelativeToolTip": "Hypesoft\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:09:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\appsettings.json",
+              "RelativeDocumentMoniker": "Hypesoft\\appsettings.json",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\appsettings.json",
+              "RelativeToolTip": "Hypesoft\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T23:08:10.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Hypesoft\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:07:12.68Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿using Hypesoft.Application.Commands;
+using Hypesoft.Application.Queries;
+using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Hypesoft.API
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class CategoriesController : ControllerBase
+    {
+        private readonly IMediator _mediator;
+
+        public CategoriesController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
+        [HttpPost("CreateCategory")]
+        public async Task<IActionResult> Create(CreateCategoryCommand command)
+        {
+            var id = await _mediator.Send(command);
+            return CreatedAtAction(nameof(GetById), new { id }, id);
+        }
+
+        [HttpGet("FindById/{id}")]
+        public async Task<IActionResult> GetById(string id)
+        {
+            var result = await _mediator.Send(new GetCategoryByIdQuery(id));
+            if (result == null) return NotFound();
+            return Ok(result);
+        }
+    }
+
+}

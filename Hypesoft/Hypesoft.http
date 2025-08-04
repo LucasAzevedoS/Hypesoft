@@ -1,0 +1,6 @@
+@Hypesoft_HostAddress = http://localhost:5100
+
+GET {{Hypesoft_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
