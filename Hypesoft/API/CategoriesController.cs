@@ -31,6 +31,24 @@ namespace Hypesoft.API
             if (result == null) return NotFound();
             return Ok(result);
         }
+
+        [HttpGet("FindAll")]
+        public async Task<IActionResult> GetAllCategories()
+        {
+            var query = new GetCategoryAllQuery();
+            var products = await _mediator.Send(query);
+
+            return Ok(products);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCategory(string id)
+        {
+            var command = new DeleteCategoryCommand(id);
+            var result = await _mediator.Send(command);
+            if (!result)
+                return NotFound();
+            return NoContent();
+        }
     }
 
 }

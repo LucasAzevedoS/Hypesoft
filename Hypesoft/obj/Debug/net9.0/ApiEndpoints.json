@@ -1,8 +1,24 @@
 [
   {
     "ContainingType": "Hypesoft.API.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "Create",
-    "RelativePath": "api/Categories/CriarCategoria",
+    "RelativePath": "api/Categories/CreateCategory",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -17,8 +33,18 @@
   },
   {
     "ContainingType": "Hypesoft.API.CategoriesController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Categories/FindAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "GetById",
-    "RelativePath": "api/Categories/ListarPorId/{id}",
+    "RelativePath": "api/Categories/FindById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -33,8 +59,24 @@
   },
   {
     "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "Create",
-    "RelativePath": "api/Products/CriarItem",
+    "RelativePath": "api/Products/CreateItem",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -65,8 +107,18 @@
   },
   {
     "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products/FindAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "GetByCategory",
-    "RelativePath": "api/Products/ListarPorCategoria/{category}",
+    "RelativePath": "api/Products/FindByCategory/{category}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -81,18 +133,8 @@
   },
   {
     "ContainingType": "Hypesoft.API.ProductsController",
-    "Method": "GetLowStock",
-    "RelativePath": "api/Products/ListarProdutoBaixoEstoque",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "GetById",
-    "RelativePath": "api/Products/ListarProdutoPorId/{id}",
+    "RelativePath": "api/Products/FindById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -103,6 +145,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "GetLowStock",
+    "RelativePath": "api/Products/FindByLowStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

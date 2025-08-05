@@ -48,3 +48,4 @@ D:\Hypesoft\Hypesoft\obj\Debug\net9.0\ref\Hypesoft.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Hypesoft\Hypesoft\obj\Debug\net9.0\Hypesoft.sourcelink.json

@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Categories/CriarCategoria": {
+    "/api/Categories/CreateCategory": {
       "post": {
         "tags": [
           "Categories"
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Categories/ListarPorId/{id}": {
+    "/api/Categories/FindById/{id}": {
       "get": {
         "tags": [
           "Categories"
@@ -58,7 +58,41 @@
         }
       }
     },
-    "/api/Products/CriarItem": {
+    "/api/Categories/FindAll": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/{id}": {
+      "delete": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/CreateItem": {
       "post": {
         "tags": [
           "Products"
@@ -89,7 +123,7 @@
         }
       }
     },
-    "/api/Products/ListarPorCategoria/{category}": {
+    "/api/Products/FindByCategory/{category}": {
       "get": {
         "tags": [
           "Products"
@@ -111,7 +145,7 @@
         }
       }
     },
-    "/api/Products/ListarProdutoPorId/{id}": {
+    "/api/Products/FindById/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -133,7 +167,19 @@
         }
       }
     },
-    "/api/Products/ListarProdutoBaixoEstoque": {
+    "/api/Products/FindByLowStock": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/FindAll": {
       "get": {
         "tags": [
           "Products"
@@ -169,6 +215,28 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/{id}": {
+      "delete": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

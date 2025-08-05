@@ -50,11 +50,30 @@ namespace Hypesoft.API
             return Ok(products);
         }
 
+        [HttpGet("FindAll")]
+        public async Task<IActionResult> GetAllProducts()
+        {
+            var query = new GetProductAllQuery();
+            var products = await _mediator.Send(query);
+
+            return Ok(products);
+        }
+
         [HttpPatch("estoque")]
         public async Task<IActionResult> UpdateStock(UpdateStockCommand command)
         {
             var result = await _mediator.Send(command);
             return result ? Ok() : NotFound();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(string id)
+        {
+            var command = new DeleteProductCommand(id);
+            var result = await _mediator.Send(command);
+            if (!result)
+                return NotFound();
+            return NoContent(); 
         }
     }
 }
