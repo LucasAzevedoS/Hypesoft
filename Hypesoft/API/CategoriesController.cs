@@ -1,5 +1,6 @@
 ﻿using Hypesoft.Application.Commands;
 using Hypesoft.Application.Queries;
+using Hypesoft.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -47,6 +48,22 @@ namespace Hypesoft.API
             var result = await _mediator.Send(command);
             if (!result)
                 return NotFound();
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCategory(string id, [FromBody] Category category)
+        {
+
+            if (id != category.Id)
+                return BadRequest("ID mismatch");
+
+            var command = new UpdateCategoryCommand(category);
+            var result = await _mediator.Send(command);
+
+            if (!result)
+                return NotFound();
+
             return NoContent();
         }
     }

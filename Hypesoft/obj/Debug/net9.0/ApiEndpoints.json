@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "Hypesoft.API.CategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "Hypesoft.Domain.Entities.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "Create",
     "RelativePath": "api/Categories/CreateCategory",
     "HttpMethod": "POST",
@@ -59,6 +80,27 @@
   },
   {
     "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Hypesoft.Domain.Entities.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
@@ -84,22 +126,6 @@
       {
         "Name": "command",
         "Type": "Hypesoft.Application.Commands.CreateProductCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.ProductsController",
-    "Method": "UpdateStock",
-    "RelativePath": "api/Products/estoque",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Hypesoft.Application.Commands.UpdateStockCommand",
         "IsRequired": true
       }
     ],

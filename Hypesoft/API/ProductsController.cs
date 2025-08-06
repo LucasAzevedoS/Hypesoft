@@ -1,7 +1,9 @@
 ﻿using Hypesoft.Application.Commands;
 using Hypesoft.Application.DTOs;
 using Hypesoft.Application.Queries;
+using Hypesoft.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hypesoft.API
@@ -50,6 +52,7 @@ namespace Hypesoft.API
             return Ok(products);
         }
 
+
         [HttpGet("FindAll")]
         public async Task<IActionResult> GetAllProducts()
         {
@@ -59,11 +62,20 @@ namespace Hypesoft.API
             return Ok(products);
         }
 
-        [HttpPatch("estoque")]
-        public async Task<IActionResult> UpdateStock(UpdateStockCommand command)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(string id, [FromBody] Product product)
         {
+            
+            if (id != product.Id)
+                return BadRequest("ID mismatch");
+
+            var command = new UpdateProductCommand(product);
             var result = await _mediator.Send(command);
-            return result ? Ok() : NotFound();
+
+            if (!result)
+                return NotFound(); 
+
+            return NoContent(); 
         }
 
         [HttpDelete("{id}")]

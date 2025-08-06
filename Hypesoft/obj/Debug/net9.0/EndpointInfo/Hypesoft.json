@@ -90,6 +90,45 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Category"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Category"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Category"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Products/CreateItem": {
@@ -191,26 +230,36 @@
         }
       }
     },
-    "/api/Products/estoque": {
-      "patch": {
+    "/api/Products/{id}": {
+      "put": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStockCommand"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStockCommand"
+                "$ref": "#/components/schemas/Product"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateStockCommand"
+                "$ref": "#/components/schemas/Product"
               }
             }
           }
@@ -220,9 +269,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Products/{id}": {
+      },
       "delete": {
         "tags": [
           "Products"
@@ -286,6 +333,20 @@
   },
   "components": {
     "schemas": {
+      "Category": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateCategoryCommand": {
         "type": "object",
         "properties": {
@@ -322,14 +383,30 @@
         },
         "additionalProperties": false
       },
-      "UpdateStockCommand": {
+      "Product": {
         "type": "object",
         "properties": {
-          "productId": {
+          "id": {
             "type": "string",
             "nullable": true
           },
-          "newQuantity": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "categoryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "stockQuantity": {
             "type": "integer",
             "format": "int32"
           }

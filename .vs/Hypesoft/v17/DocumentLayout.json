@@ -3,72 +3,8 @@
   "WorkspaceRootPath": "D:\\Hypesoft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\getcategoryallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\getcategoryallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getcategoryallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getcategoryallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\getproductallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\getproductallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\commands\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\commands\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getproductallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getproductallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\validators\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\validators\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\queries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\queries\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\updatecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\updatecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\application\\handlers\\updateproducthandler .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\application\\handlers\\updateproducthandler .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,262 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetCategoryAllHandler.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetCategoryAllHandler.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\GetCategoryAllHandler.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetCategoryAllHandler.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\GetCategoryAllHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:59:02.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\API\\CategoriesController.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
-              "RelativeToolTip": "Hypesoft\\API\\CategoriesController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:57:04.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteCategoryCommand.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\DeleteCategoryCommand.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Commands\\DeleteCategoryCommand.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\DeleteCategoryCommand.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Commands\\DeleteCategoryCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:52:54.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeleteProductCommand.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\DeleteProductCommand.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Commands\\DeleteProductCommand.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Commands\\DeleteProductCommand.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Commands\\DeleteProductCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:50:25.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetProductAllHandler.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductAllHandler.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\GetProductAllHandler.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductAllHandler.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\GetProductAllHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:45:03.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\API\\ProductsController.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
-              "RelativeToolTip": "Hypesoft\\API\\ProductsController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAiwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:30:31.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetCategoryAllQuery.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryAllQuery.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetCategoryAllQuery.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryAllQuery.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetCategoryAllQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:58:02.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetProductByIdQuery.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductByIdQuery.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetProductByIdQuery.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductByIdQuery.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetProductByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:23:53.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DeleteProductHandler.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\DeleteProductHandler.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\DeleteProductHandler.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\DeleteProductHandler.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\DeleteProductHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:50:46.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetProductAllQuery.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductAllQuery.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetProductAllQuery.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductAllQuery.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetProductAllQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:24:37.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DeleteCategoryHandler.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\DeleteCategoryHandler.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\DeleteCategoryHandler.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\DeleteCategoryHandler.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\DeleteCategoryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:53:33.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Domain\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Domain\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Domain\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Hypesoft\\Domain\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:29:42.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetProductsByCategoryQuery.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductsByCategoryQuery.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetProductsByCategoryQuery.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetProductsByCategoryQuery.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetProductsByCategoryQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:24:01.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetProductByIdHandler.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\GetProductByIdHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:23:07.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateProductValidator.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Validators\\CreateProductValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:34:55.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Domain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Hypesoft\\Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:34:59.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Hypesoft\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:34:26.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Program.cs",
               "RelativeDocumentMoniker": "Hypesoft\\Program.cs",
               "ToolTip": "D:\\Hypesoft\\Hypesoft\\Program.cs",
               "RelativeToolTip": "Hypesoft\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:33:03.633Z",
+              "WhenOpened": "2025-08-05T23:28:36.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\appsettings.json",
               "RelativeDocumentMoniker": "Hypesoft\\appsettings.json",
               "ToolTip": "D:\\Hypesoft\\Hypesoft\\appsettings.json",
               "RelativeToolTip": "Hypesoft\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-05T00:33:02.795Z",
+              "WhenOpened": "2025-08-05T23:26:20.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetCategoryByIdQuery.cs",
-              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
-              "RelativeDocumentMoniker": "Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
-              "RelativeToolTip": "Hypesoft\\Application\\Queries\\GetCategoryByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UpdateCategoryHandler.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\UpdateCategoryHandler.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateCategoryHandler.cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\UpdateCategoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:23:48.75Z",
+              "WhenOpened": "2025-08-05T23:11:51.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductHandler .cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateProductHandler .cs",
+              "RelativeDocumentMoniker": "Hypesoft\\Application\\Handlers\\UpdateProductHandler .cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Application\\Handlers\\UpdateProductHandler .cs",
+              "RelativeToolTip": "Hypesoft\\Application\\Handlers\\UpdateProductHandler .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:11:22.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\API\\CategoriesController.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\CategoriesController.cs",
+              "RelativeToolTip": "Hypesoft\\API\\CategoriesController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADgvzwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T22:58:00.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Hypesoft\\API\\ProductsController.cs",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
+              "RelativeToolTip": "Hypesoft\\API\\ProductsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:00:15.592Z",
               "EditorCaption": ""
             }
           ]
