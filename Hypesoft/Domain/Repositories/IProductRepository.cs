@@ -1,4 +1,5 @@
-﻿using Hypesoft.Domain.Entities;
+﻿using Hypesoft.Application.DTOs;
+using Hypesoft.Domain.Entities;
 
 namespace Hypesoft.Domain.Repositories
 {
@@ -11,5 +12,7 @@ namespace Hypesoft.Domain.Repositories
         Task UpdateAsync(Product product);
         Task DeleteAsync(string id);
         Task<List<Product>> GetByCategoryAsync(string category);
+
+        Task<PagedResponse<Product>> GetPagedAsync(int page, int pageSize);
     }
 }

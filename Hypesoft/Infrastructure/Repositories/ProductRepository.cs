@@ -1,4 +1,5 @@
-﻿using Hypesoft.Domain.Entities;
+﻿using Hypesoft.Application.DTOs;
+using Hypesoft.Domain.Entities;
 using Hypesoft.Domain.Repositories;
 using Hypesoft.Infrastructure.Data;
 using MongoDB.Driver;
@@ -36,5 +37,20 @@ namespace Hypesoft.Infrastructure.Repositories
         {
             return await _context.Products.Find(p => p.CategoryId == category).ToListAsync();
         }
+        public async Task<PagedResponse<Product>> GetPagedAsync(int page, int pageSize)
+        {
+          
+            var totalItems = await _context.Products.CountDocumentsAsync(_ => true);
+
+
+            var products = await _context.Products
+                .Find(_ => true)
+                .Skip((page - 1) * pageSize)
+                .Limit(pageSize)
+                .ToListAsync();
+
+            return new PagedResponse<Product>(products, page, pageSize, totalItems);
+        }
+
     }
 }

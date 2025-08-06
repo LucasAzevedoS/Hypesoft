@@ -5,6 +5,73 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/user-info": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/test-public": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/test-protected": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Categories/CreateCategory": {
       "post": {
         "tags": [
@@ -131,7 +198,7 @@
         }
       }
     },
-    "/api/Products/CreateItem": {
+    "/api/Products/Create": {
       "post": {
         "tags": [
           "Products"
@@ -162,7 +229,7 @@
         }
       }
     },
-    "/api/Products/FindByCategory/{category}": {
+    "/api/Products/GetByCategory/{category}": {
       "get": {
         "tags": [
           "Products"
@@ -184,7 +251,39 @@
         }
       }
     },
-    "/api/Products/FindById/{id}": {
+    "/api/Products/paged": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/GetById/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -206,7 +305,7 @@
         }
       }
     },
-    "/api/Products/FindByLowStock": {
+    "/api/Products/GetLowStock": {
       "get": {
         "tags": [
           "Products"
@@ -218,7 +317,7 @@
         }
       }
     },
-    "/api/Products/FindAll": {
+    "/api/Products/GetAll": {
       "get": {
         "tags": [
           "Products"
@@ -230,7 +329,7 @@
         }
       }
     },
-    "/api/Products/{id}": {
+    "/api/Products/EditById{id}": {
       "put": {
         "tags": [
           "Products"
@@ -269,7 +368,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Products/DeleteById{id}": {
       "delete": {
         "tags": [
           "Products"
@@ -383,6 +484,20 @@
         },
         "additionalProperties": false
       },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Product": {
         "type": "object",
         "properties": {
@@ -436,6 +551,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Digite 'Bearer' seguido do seu token JWT. Exemplo: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

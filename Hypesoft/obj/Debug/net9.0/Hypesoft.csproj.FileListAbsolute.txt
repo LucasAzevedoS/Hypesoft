@@ -17,7 +17,6 @@ D:\Hypesoft\Hypesoft\bin\Debug\net9.0\DnsClient.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\FluentValidation.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\MediatR.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\MediatR.Contracts.dll
-D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
@@ -54,3 +53,7 @@ D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Authentication.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Common.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Authorization.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Sdk.dll
