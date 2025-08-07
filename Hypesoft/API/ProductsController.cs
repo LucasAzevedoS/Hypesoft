@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Hypesoft.API
 {
     [Route("api/[controller]")]
-    [Authorize]
+    //[Authorize]
     [ApiController]
     public class ProductsController : ControllerBase
     {

@@ -16,36 +16,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Hypesoft.API.Controllers.AuthController",
-    "Method": "TestProtected",
-    "RelativePath": "api/Auth/test-protected",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.Controllers.AuthController",
-    "Method": "TestPublic",
-    "RelativePath": "api/Auth/test-public",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.Controllers.AuthController",
-    "Method": "GetUserInfo",
-    "RelativePath": "api/Auth/user-info",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "DeleteCategory",
     "RelativePath": "api/Categories/{id}",
