@@ -8,7 +8,7 @@ using System.Security.Claims;
 namespace Hypesoft.API.Controllers
 {
     [ApiController]
-    [Authorize]
+
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {

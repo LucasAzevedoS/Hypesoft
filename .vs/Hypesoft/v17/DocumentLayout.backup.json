@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Hypesoft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\api\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|solutionrelative:hypesoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{398DA7B5-6994-4531-A080-488258D807B3}|Hypesoft\\Hypesoft.csproj|d:\\hypesoft\\hypesoft\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -103,16 +103,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\Program.cs",
               "RelativeDocumentMoniker": "Hypesoft\\Program.cs",
-              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Program.cs*",
-              "RelativeToolTip": "Hypesoft\\Program.cs*",
+              "ToolTip": "D:\\Hypesoft\\Hypesoft\\Program.cs",
+              "RelativeToolTip": "Hypesoft\\Program.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAYwEUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:10:02.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T00:10:02.678Z"
             },
             {
               "$type": "Document",
@@ -172,18 +171,17 @@
               "RelativeToolTip": "Hypesoft\\API\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T22:26:25.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T22:26:25.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
               "RelativeDocumentMoniker": "Hypesoft\\API\\ProductsController.cs",
               "ToolTip": "D:\\Hypesoft\\Hypesoft\\API\\ProductsController.cs",
               "RelativeToolTip": "Hypesoft\\API\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T23:03:01.438Z",
               "EditorCaption": ""
