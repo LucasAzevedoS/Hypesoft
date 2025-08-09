@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Hypesoft.API
 {
     [Route("api/[controller]")]
-    //[Authorize]
+    [Authorize]
     [ApiController]
     public class ProductsController : ControllerBase
     {
@@ -70,6 +70,15 @@ namespace Hypesoft.API
         public async Task<IActionResult> GetAllProducts()
         {
             var query = new GetProductAllQuery();
+            var products = await _mediator.Send(query);
+
+            return Ok(products);
+        }
+
+        [HttpGet("GetAllDt")]
+        public async Task<IActionResult> GetAllProductsDt()
+        {
+            var query = new GetProductAllDtQuery();
             var products = await _mediator.Send(query);
 
             return Ok(products);

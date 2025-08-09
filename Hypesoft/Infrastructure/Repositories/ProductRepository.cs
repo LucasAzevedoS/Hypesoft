@@ -52,5 +52,13 @@ namespace Hypesoft.Infrastructure.Repositories
             return new PagedResponse<Product>(products, page, pageSize, totalItems);
         }
 
+        public async Task<List<Product>> GetAllOrderedByCreationAsync()
+        {
+            return await _context.Products
+                .Find(_ => true)
+                .SortByDescending(p => p.DtCriacao) 
+                .ToListAsync();
+        }
+
     }
 }

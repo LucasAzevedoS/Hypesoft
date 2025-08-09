@@ -159,6 +159,16 @@
   },
   {
     "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "GetAllProductsDt",
+    "RelativePath": "api/Products/GetAllDt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "GetByCategory",
     "RelativePath": "api/Products/GetByCategory/{category}",
     "HttpMethod": "GET",

@@ -14,5 +14,6 @@ namespace Hypesoft.Domain.Repositories
         Task<List<Product>> GetByCategoryAsync(string category);
 
         Task<PagedResponse<Product>> GetPagedAsync(int page, int pageSize);
+        Task<List<Product>> GetAllOrderedByCreationAsync();
     }
 }

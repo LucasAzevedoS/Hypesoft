@@ -21,8 +21,9 @@ namespace Hypesoft.Application.Handlers
                 Name = request.Name,
                 Description = request.Description,
                 Price = request.Price,
-                CategoryId = request.Category,
-                StockQuantity = request.StockQuantity
+                CategoryId = request.CategoryId,
+                StockQuantity = request.StockQuantity,
+                DtCriacao = DateTime.UtcNow
             };
 
             await _repository.CreateAsync(product);

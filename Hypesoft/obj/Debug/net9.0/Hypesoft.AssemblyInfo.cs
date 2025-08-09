@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hypesoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c659c9e79654e19ac01243a2e2f7dab8171ddc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2287321c55b752d44f39e4e458a3df625a389ec5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hypesoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hypesoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

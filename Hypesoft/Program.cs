@@ -63,14 +63,19 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddInfrastructure();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-              //.AllowCredentials(); 
+        policy
+            .WithOrigins(
+                "http://localhost:3000", // Front Next.js
+                "http://localhost:8080"  // Keycloak
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials(); // permite cookies / Authorization header
     });
 });
+
 var app = builder.Build();
 
 app.UseSwagger();
@@ -78,8 +83,8 @@ app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hypesoft API V1");
 });
-app.UseCors("AllowAll");
 app.UseHttpsRedirection();
+app.UseCors("AllowFrontend");   
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

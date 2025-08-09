@@ -293,6 +293,18 @@
         }
       }
     },
+    "/api/Products/GetAllDt": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Products/EditById{id}": {
       "put": {
         "tags": [
@@ -437,7 +449,7 @@
             "type": "number",
             "format": "double"
           },
-          "category": {
+          "categoryId": {
             "type": "string",
             "nullable": true
           },
@@ -488,6 +500,10 @@
           "stockQuantity": {
             "type": "integer",
             "format": "int32"
+          },
+          "dtCriacao": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
