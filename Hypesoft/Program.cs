@@ -5,16 +5,17 @@ using Hypesoft.Infrastructure.Repositories;
 using Keycloak.AuthServices.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddKeycloakWebApiAuthentication(builder.Configuration, options =>
 {
-    options.RequireHttpsMetadata = false; // Para desenvolvimento com HTTP
+    options.RequireHttpsMetadata = false; 
     options.SaveToken = true;
 });
 
-// Configurar opções adicionais do JWT Bearer
+
 builder.Services.Configure<JwtBearerOptions>(JwtBearerDefaults.AuthenticationScheme, options =>
 {
     options.RequireHttpsMetadata = false;
@@ -67,15 +68,26 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins(
-                "http://localhost:3000", // Front Next.js
-                "http://localhost:8080"  // Keycloak
+                "http://localhost:3000", 
+                "http://localhost:8080"  
             )
             .AllowAnyHeader()
             .AllowAnyMethod()
-            .AllowCredentials(); // permite cookies / Authorization header
+            .AllowCredentials(); 
     });
 });
 
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information() 
+    .WriteTo.Console() 
+    .WriteTo.File(
+        path: "logs/log.txt", 
+        rollingInterval: RollingInterval.Day, 
+        retainedFileCountLimit: 7, 
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+    )
+    .CreateLogger();
+builder.Host.UseSerilog();
 var app = builder.Build();
 
 app.UseSwagger();

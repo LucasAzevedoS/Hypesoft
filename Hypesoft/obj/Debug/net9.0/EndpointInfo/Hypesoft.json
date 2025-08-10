@@ -36,73 +36,8 @@
         }
       }
     },
-    "/api/Categories/CreateCategory": {
-      "post": {
-        "tags": [
-          "Categories"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCategoryCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCategoryCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCategoryCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Categories/FindById/{id}": {
+    "/api/Categories/category/{id}": {
       "get": {
-        "tags": [
-          "Categories"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Categories/FindAll": {
-      "get": {
-        "tags": [
-          "Categories"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Categories/{id}": {
-      "delete": {
         "tags": [
           "Categories"
         ],
@@ -162,30 +97,64 @@
         }
       }
     },
-    "/api/Products/Create": {
+    "/api/Categories/categoryAll": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/category": {
       "post": {
         "tags": [
-          "Products"
+          "Categories"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductCommand"
+                "$ref": "#/components/schemas/CreateCategoryCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductCommand"
+                "$ref": "#/components/schemas/CreateCategoryCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProductCommand"
+                "$ref": "#/components/schemas/CreateCategoryCommand"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Categories/{id}": {
+      "delete": {
+        "tags": [
+          "Categories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -236,9 +205,21 @@
             "schema": {
               "type": "integer",
               "format": "int32",
-              "default": 10
+              "default": 12
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/GetLast": {
+      "get": {
+        "tags": [
+          "Products"
         ],
         "responses": {
           "200": {
@@ -305,7 +286,38 @@
         }
       }
     },
-    "/api/Products/EditById{id}": {
+    "/api/Products/Create": {
+      "post": {
+        "tags": [
+          "Products"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateProductCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateProductCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateProductCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/EditById/{id}": {
       "put": {
         "tags": [
           "Products"
@@ -346,7 +358,7 @@
         }
       }
     },
-    "/api/Products/DeleteById{id}": {
+    "/api/Products/DeleteById/{id}": {
       "delete": {
         "tags": [
           "Products"

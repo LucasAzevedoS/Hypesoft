@@ -2,6 +2,7 @@
 using Hypesoft.Domain.Entities;
 using Hypesoft.Domain.Repositories;
 using MediatR;
+using Serilog;
 
 namespace Hypesoft.Application.Handlers
 {
@@ -27,6 +28,7 @@ namespace Hypesoft.Application.Handlers
             };
 
             await _repository.CreateAsync(product);
+            
             return product.Id;
         }
     }

@@ -5,6 +5,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Hypesoft.API
 {
@@ -20,14 +21,8 @@ namespace Hypesoft.API
             _mediator = mediator;
         }
 
-        [HttpPost("CreateCategory")]
-        public async Task<IActionResult> Create(CreateCategoryCommand command)
-        {
-            var id = await _mediator.Send(command);
-            return CreatedAtAction(nameof(GetById), new { id }, id);
-        }
 
-        [HttpGet("FindById/{id}")]
+        [HttpGet("category/{id}")]
         public async Task<IActionResult> GetById(string id)
         {
             var result = await _mediator.Send(new GetCategoryByIdQuery(id));
@@ -35,13 +30,22 @@ namespace Hypesoft.API
             return Ok(result);
         }
 
-        [HttpGet("FindAll")]
+        [HttpGet("categoryAll")]
         public async Task<IActionResult> GetAllCategories()
         {
             var query = new GetCategoryAllQuery();
             var products = await _mediator.Send(query);
 
             return Ok(products);
+        }
+
+        [HttpPost("category")]
+        public async Task<IActionResult> Create(CreateCategoryCommand command)
+        {
+            var id = await _mediator.Send(command);
+            Log.Information("Categoria {CategoryName} criada por {User} em {Time}",
+            command.Name, User.Identity?.Name ?? "usuário não autenticado", DateTime.UtcNow);
+            return CreatedAtAction(nameof(GetById), new { id }, id);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(string id)
@@ -53,7 +57,7 @@ namespace Hypesoft.API
             return NoContent();
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("category/{id}")]
         public async Task<IActionResult> UpdateCategory(string id, [FromBody] Category category)
         {
 

@@ -5,6 +5,7 @@ using Hypesoft.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Hypesoft.API
 {
@@ -20,12 +21,7 @@ namespace Hypesoft.API
             _mediator = mediator;
         }
 
-        [HttpPost("Create")]
-        public async Task<IActionResult> Create(CreateProductCommand command)
-        {
-            var id = await _mediator.Send(command);
-            return CreatedAtAction(nameof(GetById), new { id }, id);
-        }
+
 
         [HttpGet("GetByCategory/{category}")]
         public async Task<IActionResult> GetByCategory(string category)
@@ -38,7 +34,7 @@ namespace Hypesoft.API
 
         public async Task<IActionResult> GetProductsPaged(
         [FromQuery] int page = 1,
-        [FromQuery] int pageSize = 10)
+        [FromQuery] int pageSize = 12)
         {
             var query = new GetProductPagedQuery(page, pageSize);
             var result = await _mediator.Send(query);
@@ -46,10 +42,18 @@ namespace Hypesoft.API
             return Ok(result);
         }
 
+        [HttpGet("GetLast")]
+        public async Task<IActionResult> GetLast5Products()
+        {
+            var query = new GetLast5ProductsQuery();
+            var products = await _mediator.Send(query);
+            return Ok(products);
+        }
+
+
         [HttpGet("GetById/{id}")]
         public async Task<IActionResult> GetById(string id)
         {
-            // chamar o MediatR para retornar o produto por ID
             var result = await _mediator.Send(new GetProductByIdQuery(id));
 
             if (result == null)
@@ -84,7 +88,16 @@ namespace Hypesoft.API
             return Ok(products);
         }
 
-        [HttpPut("EditById{id}")]
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create(CreateProductCommand command)
+        {
+            var id = await _mediator.Send(command);
+            Log.Information("Produto {ProductName} criado por {User} em {Time}",
+    command.Name, User.Identity?.Name ?? "usuário não autenticado", DateTime.UtcNow);
+            return CreatedAtAction(nameof(GetById), new { id }, id);
+        }
+
+        [HttpPut("EditById/{id}")]
         public async Task<IActionResult> UpdateProduct(string id, [FromBody] Product product)
         {
             
@@ -100,7 +113,7 @@ namespace Hypesoft.API
             return NoContent(); 
         }
 
-        [HttpDelete("DeleteById{id}")]
+        [HttpDelete("DeleteById/{id}")]
         public async Task<IActionResult> DeleteProduct(string id)
         {
             var command = new DeleteProductCommand(id);

@@ -57,3 +57,13 @@ D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Authentication.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Common.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Authorization.dll
 D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Keycloak.AuthServices.Sdk.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.AspNetCore.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+D:\Hypesoft\Hypesoft\bin\Debug\net9.0\Serilog.Sinks.File.dll

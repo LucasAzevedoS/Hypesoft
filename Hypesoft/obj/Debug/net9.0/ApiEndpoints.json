@@ -33,8 +33,40 @@
   },
   {
     "ContainingType": "Hypesoft.API.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "api/Categories/category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Hypesoft.Application.Commands.CreateCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/Categories/category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "UpdateCategory",
-    "RelativePath": "api/Categories/{id}",
+    "RelativePath": "api/Categories/category/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -54,44 +86,12 @@
   },
   {
     "ContainingType": "Hypesoft.API.CategoriesController",
-    "Method": "Create",
-    "RelativePath": "api/Categories/CreateCategory",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "Hypesoft.Application.Commands.CreateCategoryCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.CategoriesController",
     "Method": "GetAllCategories",
-    "RelativePath": "api/Categories/FindAll",
+    "RelativePath": "api/Categories/categoryAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Hypesoft.API.CategoriesController",
-    "Method": "GetById",
-    "RelativePath": "api/Categories/FindById/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -113,7 +113,7 @@
   {
     "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/Products/DeleteById{id}",
+    "RelativePath": "api/Products/DeleteById/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -129,7 +129,7 @@
   {
     "ContainingType": "Hypesoft.API.ProductsController",
     "Method": "UpdateProduct",
-    "RelativePath": "api/Products/EditById{id}",
+    "RelativePath": "api/Products/EditById/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -197,6 +197,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.ProductsController",
+    "Method": "GetLast5Products",
+    "RelativePath": "api/Products/GetLast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

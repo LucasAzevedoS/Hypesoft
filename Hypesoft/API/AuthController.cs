@@ -4,6 +4,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
 using Hypesoft.Domain.Entities;
 using System.Security.Claims;
+using Serilog;
 
 namespace Hypesoft.API.Controllers
 {
@@ -50,7 +51,7 @@ namespace Hypesoft.API.Controllers
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     var tokenResponse = JsonSerializer.Deserialize<JsonElement>(content);
-
+                    Log.Information("Usuário {Username} logou com sucesso em {Time}", request.Username, DateTime.UtcNow);
                     return Ok(new
                     {
                         access_token = tokenResponse.GetProperty("access_token").GetString(),
@@ -61,12 +62,14 @@ namespace Hypesoft.API.Controllers
                 }
                 else
                 {
+                    Log.Warning("Tentativa de login falhou para usuário {Username} em {Time}", request.Username, DateTime.UtcNow);
                     var errorContent = await response.Content.ReadAsStringAsync();
                     return BadRequest(new { error = "Invalid credentials", details = errorContent });
                 }
             }
             catch (Exception ex)
             {
+                Log.Warning("Tentativa de login falhou para usuário {Username} em {Time}", request.Username, DateTime.UtcNow);
                 return StatusCode(500, new { error = "Internal server error", message = ex.Message });
             }
         }

@@ -60,5 +60,15 @@ namespace Hypesoft.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        public async Task<List<Product>> GetLast5Async()
+        {
+            return await _context.Products
+                .Find(_ => true)
+                .SortByDescending(p => p.DtCriacao)
+                .Limit(5)
+                .ToListAsync();
+        }
+
+
     }
 }

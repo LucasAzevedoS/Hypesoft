@@ -9,10 +9,10 @@ namespace Hypesoft.Application.Queries
         public int Page { get; }
         public int PageSize { get; }
 
-        public GetProductPagedQuery(int page = 1, int pageSize = 10)
+        public GetProductPagedQuery(int page = 1, int pageSize = 12)
         {
             Page = page < 1 ? 1 : page;
-            PageSize = pageSize < 1 ? 10 : (pageSize > 100 ? 100 : pageSize);
+            PageSize = pageSize < 1 ? 12 : (pageSize > 100 ? 100 : pageSize);
         }
     }
 }

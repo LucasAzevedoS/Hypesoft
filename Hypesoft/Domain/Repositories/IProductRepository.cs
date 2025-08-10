@@ -13,6 +13,7 @@ namespace Hypesoft.Domain.Repositories
         Task DeleteAsync(string id);
         Task<List<Product>> GetByCategoryAsync(string category);
 
+        Task<List<Product>> GetLast5Async();
         Task<PagedResponse<Product>> GetPagedAsync(int page, int pageSize);
         Task<List<Product>> GetAllOrderedByCreationAsync();
     }
